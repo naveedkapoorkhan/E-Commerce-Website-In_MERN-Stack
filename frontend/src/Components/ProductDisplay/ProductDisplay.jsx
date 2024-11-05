@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import "./ProductDisplay.css"
 import star_icon from "../Assets/star_icon.png"
 import star_dull_icon from "../Assets/star_dull_icon.png"
+import { ShopContext } from '../../Context/ShopContext'
 const ProductDisplay = (props) => {
     const {product}=props;
+    const {addToCart}=useContext(ShopContext);
+    const [count,setCount]=useState(1);
+    const ClickMeasure=()=>{
+        setCount(prevCount => prevCount + 1);
+    }
+    const handleClick=()=>{
+        
+    console.log(alert("product is added to Cart "+count+" Time"));
+    }
   return (
     <div className='productdisplay'>
         <div className="productdisplay-left">
@@ -46,7 +56,12 @@ const ProductDisplay = (props) => {
                     <div>XXL</div>
                 </div>
             </div>
-            <button>ADD TO CART</button>
+         <button onClick={() => {
+            handleClick();
+            ClickMeasure();
+                            addToCart(product.id);
+                            console.log("Added to cart:", product.id);
+                             }}>ADD TO CART</button>
             <p className="productdisplay-right-category"><span>Category:</span>Women , T-shirt, Crop Top</p>
             <p><span>Tags:</span>Modern, Latest</p>
 
