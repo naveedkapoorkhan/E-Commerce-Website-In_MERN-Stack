@@ -1,0 +1,84 @@
+.mainsplash{
+    width:100%;
+    height:100vh;
+    background:#fce3fe;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.mainsplash-container{
+    width:50%;
+    height:50vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+       
+}
+
+.mainsplash-logo{
+    width:100px;
+    height:100px;
+
+}
+.mainsplash-container h1{
+    font-Size:40px;
+    font-Size:bolder;
+    color:black;
+    margin-top:10px;
+}
+.mainsplash-btn{
+    margin-top:10px;
+    display:flex;
+    gap:20px;
+    
+}
+.mainsplash-container p{
+    margin:10px;
+    font-Size:20px;
+
+}
+.mainsplash-container button{
+    width:150px;
+    height:58px;
+    border-radius:10px;
+    font-Size:16px;
+    
+    cursor:pointer;
+    border:2px solid black;
+    background:white;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    align-items:center;
+    font-weight:700;
+}
+.mainsplash-container button:hover{
+    background:grey;
+}
+.mainsplash-btn-home{
+    width:150px;
+    height:53px;
+    border-radius:10px;
+    font-Size:16px;
+    
+    cursor:pointer;
+    border:2px solid black;
+    background:white;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    align-items:center;
+}
+.mainsplash-btn-home:hover{
+    background:grey;
+}
+
+.welcome-animation {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:grey;
+  margin-bottom: 20px; /* Adjust spacing above logo */
+  text-align: center;
+}
+
