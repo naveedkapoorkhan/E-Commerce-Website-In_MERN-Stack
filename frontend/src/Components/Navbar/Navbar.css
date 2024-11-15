@@ -3,6 +3,7 @@
     justify-content:space-around;
     padding:16px;
     box-shadow:0 1px 3px -2px black;
+    background:white;
 
 }
 .nav-logo{
@@ -22,7 +23,7 @@
     list-style:none;
     gap:50px;
     color:#626262;
-    font-size:20px;
+    font-size:25px;
     font-weight:500;
 }
 .nav-menu li{
@@ -32,6 +33,7 @@
     justify-content:center;
     gap:3px;
     cursor:pointer;
+    
 }
 .nav-menu hr{
     border:none;

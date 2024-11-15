@@ -76,6 +76,13 @@
     cursor:pointer;
 }
 .productdisplay-right-sizes div:hover{
+    background:grey;
+    border-radius:8px;
+    font-weight:bold;
+
+
+}
+.productdisplay-right-sizes div:hover{
     border:2    px solid black;
 }
 .productdisplay-right button{

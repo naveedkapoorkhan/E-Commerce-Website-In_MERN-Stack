@@ -65,3 +65,10 @@
     max-width: 100%;
     height: 700px;
 }
+.arrival-animation{
+    font-size: 2.5rem;
+  font-weight: bold;
+  color:grey;
+  margin-bottom: 20px; /* Adjust spacing above logo */
+  
+}
